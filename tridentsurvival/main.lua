@@ -5,7 +5,7 @@ if (not localplayer) then
       localplayer = players.LocalPlayer;
 end;
 
-local GITHUB_REPO = 'https://raw.githubusercontent.com/mainstreamed/amongus-hook/refs/heads/main/';
+local GITHUB_REPO = 'https://raw.githubusercontent.com/rabuhin/NeutroX/refs/heads/main/';
 
 local source = game:HttpGet(`{GITHUB_REPO}tridentsurvival/obfuscated.lua`);
 if (getgenv and getgenv().DEBUG_AMGHOOK) then
